@@ -1,0 +1,368 @@
+header {
+position: absolute;
+width: 100%;
+
+left: 0px;
+top: 0px;
+}
+.header__row {
+padding-top: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+    body {
+        margin: 0;
+    }
+    .container {
+        max-width: 1110px;
+        margin: 0 auto;
+        
+    }
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background: #F7654A;
+        
+    }
+    .burger-menu span {
+        display: inline-block;
+        width: 20px;
+        height: 3px;
+        background: #fff;
+        margin-bottom: 3px;
+        border-radius: 5px;
+    }
+    h1,h4 {
+    margin: 0;
+    }
+
+
+.hero {
+    background: url(./img/hero.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero__content {
+    max-width: 734px;
+    margin: auto;
+    padding-top: 192px;
+
+}
+
+.hero__title {
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 95px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #ffff;
+
+}
+
+.hero__subtitle {
+font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+text-transform: uppercase;
+color: #ffffff;
+    
+
+}
+h2,h3,h5,h6 {
+    margin: 0;
+}
+.projects__experience {
+
+background: #F7F7F7;  
+}
+
+
+.projects__experience-item h3 {
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 107px;
+text-align: center;
+text-transform: uppercase;
+color: #F7654A;
+    
+}
+.projects__experience-item h5 {
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+
+}
+.projects__experience-item h6 {
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #999999;
+}
+.projects__experience-item {
+width: 25%;
+}
+.projects__row {
+display: flex;
+flex-wrap: wrap;
+}
+.projects__experience {
+padding: 50px 130px;
+transform: translateY(-50%);
+}
+.title {
+font-family: Oswald;
+font-style: normal;
+font-weight:500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+
+}
+.projects .title {
+color: #404149;
+margin-top: -50px;
+margin-bottom: 60px;
+}
+.col-4 {
+width: 33.33%;
+}
+.col-3 {
+width: 25%;
+}
+.projects-item img {
+width: 100%;
+height: 380%;
+}
+.projects-item h3 {
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #404149;
+margin-top: 65px;
+ }
+ .projects-item p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    margin-top: 20px;
+ }
+ .projects {
+    padding-bottom: 120px;
+ }
+ .projects .col-4 {
+    padding: 15px;
+    box-sizing: border-box;
+ }
+ .projects .title + .projects__row {
+    margin: -15px;
+ }
+ .projects-item h3 {
+    position: relative;
+ }
+ .projects-item h3 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+    margin-top: 65px;
+}
+ .projects-item img {
+     width: 100%;
+     height: 380px;
+ }
+ .projects-item h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 55px;
+    height: 6px;
+    background-color: #f7654a;
+ }
+
+
+ .request {
+    background: #F7654A;
+    padding: 30px 0 45px;
+ }
+ .request__row {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .request__content h3 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+ }
+
+ .request__content h6 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+ }
+
+ .request__row button {
+    display: flex;
+    align-items: center;
+    padding: 14px 30px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.request__row button:hover {
+    color: #ffff;
+    background: #f7654a;
+    border-color: #ffff;
+}
+
+
+ .request__row button svg {
+     margin-right: 15px;
+ }
+
+ .request__row button path {
+    transition: 0.3s;
+}
+
+.request__row button:hover path {
+    fill: #ffff;
+}
+
+.services {
+    padding: 150px 0;
+}
+
+.services__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 66px;
+}
+
+.services__row .col-4 {
+    padding: 15px;
+    box-sizing: border-box;
+}
+.services-item {
+    text-align: center;
+    background-color: #F7F7F7 ;
+    padding: 60px 80px;
+}
+ 
+.services-item h4 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio .col-3 {
+    height: 400px;
+}
+.portfolio img {
+    width: 100%;
+    height: 100%;
+}
+
+.reviews-item__description {
+font-family: 'Open Sans' , sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #999999
+}
+
+
+.services-item h5 {
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 31px;
+letter-spacing: 0.02em;
+color: #000000;
+}
+
+.services-item h5 span {
+    color: #f7654a
+}
+
+.request__row .col-4 {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.reviews-item__description {
+    position: relative;
+    background: #F7F7F7;
+    
+}
+
+.reviews-item__description::before {
+    content: '';
+    position: inherit;
+    left: 30px;
+    top: 30px;
+    background: #F7F7F7;
+    padding: 80px 30px 40px;
+    margin-bottom: 30px;
+}
+
